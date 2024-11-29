@@ -53,21 +53,27 @@ a:hover {
 label{
    color: aliceblue;
    display: center;
-   margin-left: 450px;
-   margin-right: 450px;
 }
 
 h1{
    color: aliceblue;
    display: center;
-   margin-left: 450px;
-   margin-right: 450px;
 }
 
 form{
    display: flex;
+   flex-direction: column;
+   gap: 3px;
 }
 
 fieldset{
    display: flex;
+}
+.tutorial{
+   display: flex;
+   justify-content:center ;
+}
+
+.texto-tutorial{
+   text-align: center;
 }
